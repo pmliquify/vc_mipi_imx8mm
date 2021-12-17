@@ -20,7 +20,7 @@
 
 # Installation
 
-1. Create a directory and clone the repository   
+1. Create a directory and clone the repository. 
    ```
      $ cd <working_dir>
      $ git clone https://github.com/pmliquify/vc_mipi_imx8mm
@@ -37,9 +37,9 @@
      $ ./build.sh --all
    ```
 
-4. Flash the kernel image and the device tree file to the target and reboot 
+4. Flash the kernel image and the device tree file to the target and reboot.
    ```
-     $ ./flash.h --reboot --all
+     $ ./flash.sh --reboot --all
    ```
 
 5. Login and check if the driver was loaded properly. You should see something like this in the second box.
